@@ -8,4 +8,4 @@
 	url = https://gitlab.com/quantum-ket/libket.git
 [submodule "src/ket/clib/libs/kbw"]
 	path = src/ket/clib/libs/kbw
-	url = https://gitlab.com/quantum-ket/kbw.git
+	url = git@github.com:gabisartori/kbw.git
