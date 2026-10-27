@@ -9,3 +9,4 @@
 [submodule "src/ket/clib/libs/kbw"]
 	path = src/ket/clib/libs/kbw
 	url = git@github.com:gabisartori/kbw.git
+        branch = qmdd
