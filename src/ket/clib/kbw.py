@@ -55,6 +55,7 @@ def get_simulator(  # pylint: disable=too-many-arguments,too-many-positional-arg
         "dense v1",
         "dense v2",
         "dense gpu",
+        "qmdd"
     ] = "dense",
     coupling_graph: list[tuple[int, int]] | None = None,
     gradient: bool = False,
@@ -77,6 +78,7 @@ def get_simulator(  # pylint: disable=too-many-arguments,too-many-positional-arg
             - ``"dense v2"``: Dense simulator with a smaller memory footprint.
             - ``"dense gpu"``: Dense simulator targeting most GPUs (Intel, AMD,
               Apple, and NVIDIA). Recommended for large qubit counts.
+            - ``"qmdd"``: Quantum Multiple-value Decision Diagram based simulation.
 
         coupling_graph: Optional list of ``(control, target)`` qubit pairs
             describing the hardware connectivity. When provided, the compiler
